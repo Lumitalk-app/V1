@@ -1,0 +1,23 @@
+[
+  {
+    "langCode": "vi",
+    "engine": "piper",
+    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/vi/vi_VN-vais1000-medium.onnx",
+    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/vi/tokens.txt",
+    "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/vi/vi_VN-vais1000-medium.onnx.json"
+  },
+  {
+    "langCode": "en",
+    "engine": "piper",
+    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/en_US-amy-medium.onnx",
+    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/tokens.txt",
+    "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/en_US-amy-medium.onnx.json"
+  },
+  {
+    "langCode": "zh",
+    "engine": "piper",
+    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/cn/zh_CN-xiao_ya-medium.onnx",
+    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/cn/tokens.txt",
+    "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/cn/zh_CN-xiao_ya-medium.onnx.json"
+  }
+]
