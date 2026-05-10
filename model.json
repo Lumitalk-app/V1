@@ -1,23 +1,33 @@
-[
-  {
-    "langCode": "vi",
-    "engine": "piper",
-    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/vi/vi_VN-vais1000-medium.onnx",
-    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/vi/tokens.txt",
-    "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/vi/vi_VN-vais1000-medium.onnx.json"
+{
+  "vad": {
+    "engine": "silero",
+    "modelUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx"
   },
-  {
-    "langCode": "en",
-    "engine": "piper",
-    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/en_US-amy-medium.onnx",
-    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/tokens.txt",
-    "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/en_US-amy-medium.onnx.json"
+  "stt": {
+    "engine": "zipformer",
+    "encoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/v1.0-models/encoder.int8.onnx",
+    "decoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/v1.0-models/decoder.onnx",
+    "joinerUrl": "https://github.com/Lumitalk-app/V1/releases/download/v1.0-models/joiner.int8.onnx",
+    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/v1.0-models/tokens.txt"
   },
-  {
-    "langCode": "zh",
-    "engine": "piper",
-    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/cn/zh_CN-xiao_ya-medium.onnx",
-    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/cn/tokens.txt",
-    "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/cn/zh_CN-xiao_ya-medium.onnx.json"
-  }
-]
+  "languages": [
+    {
+      "langCode": "vi",
+      "tts": {
+        "engine": "piper",
+        "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/vi/vi_VN-vais1000-medium.onnx",
+        "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/vi/tokens.txt",
+        "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/vi/vi_VN-vais1000-medium.onnx.json"
+      }
+    },
+    {
+      "langCode": "en",
+      "tts": {
+        "engine": "piper",
+        "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/en_US-amy-medium.onnx",
+        "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/tokens.txt",
+        "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/en_US-amy-medium.onnx.json"
+      }
+    }
+  ]
+}
