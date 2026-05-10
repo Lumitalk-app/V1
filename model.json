@@ -3,17 +3,10 @@
     "engine": "silero",
     "modelUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx"
   },
-  "sensevoice": {
-    "model": "sensevoice",
-    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/SenseVoice/sensevoice.onnx",
-    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/SenseVoice/tokens.txt"
-  },
   "stt": {
     "engine": "zipformer",
-    "encoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/v1.0-models/encoder.int8.onnx",
-    "decoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/v1.0-models/decoder.onnx",
-    "joinerUrl": "https://github.com/Lumitalk-app/V1/releases/download/v1.0-models/joiner.int8.onnx",
-    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/v1.0-models/tokens.txt"
+    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/omi/model.int8.onnx",
+    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/omi/tokens.txt"
   },
   "languages": [
     {
