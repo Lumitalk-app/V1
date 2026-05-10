@@ -33,6 +33,15 @@
         "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/tokens.txt",
         "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/en/en_US-amy-medium.onnx.json"
       }
+    },
+    {
+      "langCode": "zh",
+      "tts": {
+        "engine": "piper",
+        "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/cn/zh_CN-xiao_ya-medium.onnx",
+        "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/cn/tokens.txt",
+        "extraUrl": "https://github.com/Lumitalk-app/V1/releases/download/cn/zh_CN-xiao_ya-medium.onnx.json"
+      }
     }
   ]
 }
