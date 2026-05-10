@@ -5,7 +5,7 @@
   },
   "sensevoice": {
     "model": "sensevoice",
-    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/SenseVoice/sensevoice.onnx"
+    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/SenseVoice/sensevoice.onnx",
     "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/SenseVoice/tokens.txt"
   },
   "stt": {
