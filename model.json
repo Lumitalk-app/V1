@@ -1,4 +1,7 @@
 {
+  "vad": {
+    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/v1.0-models/silero_vad.onnx"
+  },
   "stt": {
     "engine": "whisper",
     "encoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper/tiny-encoder.onnx",
