@@ -1,12 +1,9 @@
 {
-  "vad": {
-    "engine": "silero",
-    "modelUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx"
-  },
   "stt": {
-    "engine": "zipformer",
-    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/omi/model.int8.onnx",
-    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/omi/tokens.txt"
+    "engine": "whisper",
+    "encoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper/tiny-encoder.onnx",
+    "decoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper/tiny-decoder.onnx",
+    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper/tiny-tokens.txt"
   },
   "languages": [
     {
