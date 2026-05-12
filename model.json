@@ -4,9 +4,9 @@
   },
   "stt": {
     "engine": "whisper",
-    "encoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper/tiny-encoder.onnx",
-    "decoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper/tiny-decoder.onnx",
-    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper/tiny-tokens.txt"
+    "encoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper-base/base-encoder.onnx",
+    "decoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper-base/base-decoder.onnx",
+    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper-base/base-tokens.txt"
   },
   "languages": [
     {
