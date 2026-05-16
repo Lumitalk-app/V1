@@ -4,9 +4,7 @@
   },
   "stt": {
     "engine": "whisper-onnx",
-    "encoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper-small/small_encoder_int8.onnx",
-    "decoderUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper-small/small_decoder_int8.onnx",
-    "tokensUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper-small/small-tokens.txt"
+    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper-turbo/ggml-large-v3-turbo-q5_0.bin"
   },
   "languages": [
     {
