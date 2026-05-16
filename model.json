@@ -4,7 +4,7 @@
   },
   "stt": {
     "engine": "whisper",
-    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper-pho/ggml-small.bin",
+    "modelUrl": "https://github.com/Lumitalk-app/V1/releases/download/whisper-pho/ggml-small.bin"
   },
   "languages": [
     {
